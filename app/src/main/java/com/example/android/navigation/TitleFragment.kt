@@ -6,19 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.findNavController
 import com.example.android.navigation.databinding.FragmentTitleBinding
 
 class TitleFragment : Fragment() {
-
-    // DONE TODO (01) Create the new TitleFragment
-    // Select File->New->Fragment->Fragment (Blank)
-
-    // DONE TODO (02) Clean up the new TitleFragment
-    // In our new TitleFragment
-
-    // DONE TODO (03) Use DataBindingUtil.inflate to inflate and return the titleFragment in onCreateView
-    // In our new TitleFragment
-    // R.layout.fragment_title
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -29,6 +20,10 @@ class TitleFragment : Fragment() {
             R.layout.fragment_title, container, false)
 
         // inflater.inflate(R.layout.fragment_title, container, false)
+
+        binding.playButton.setOnClickListener { view: View ->
+            view.findNavController().navigate(R.id.action_titleFragment_to_gameFragment)
+        }
         return binding.root
     }
 
