@@ -14,7 +14,7 @@ The app navigates using buttons, the app bar, and a navigation drawer. Because
 students haven't yet learned about saving data or the Android lifecycle, the app
 tries to eliminate bugs caused by configuration changes.
 
-Prerequisites
+Things Learned
 -------------
 
 Things that I learned from this App:
