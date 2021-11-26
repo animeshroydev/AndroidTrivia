@@ -1,8 +1,7 @@
-AndroidTrivia - starter code
+AndroidTrivia
 ============================
 
-Starter code for Android Kotlin Fundamentals codelab 3.1: Create and add a
-fragment.
+Finished code for Android Kotlin Fundamentals codelab(Navigation)
 
 Introduction
 ------------
@@ -18,16 +17,19 @@ tries to eliminate bugs caused by configuration changes.
 Prerequisites
 -------------
 
-You need to know:
-- The fundamentals of Kotlin.
-- How to create basic Android apps in Kotlin.
-- How to open, build, and run apps with Android Studio.
-- How to work with layouts.
+Things that I learned from this App:
+- Data Binding.
+- Added a fragment inside activity_main.
+- Added navigation component, create navHostFragment , create nav graph
+- Add fragment to nav graph, connect two fragment with action
+- Conditional navigation
+- Modified "pop behaviour" of system back button
+- Add up back button using NavigationUI in action bar
+- Add an option menu in action bar (three dot)
+- Add navigation drawer using NavigationUI
+- Pass data/values between fragment using Safe Args(Key-value) (alternative of bundle)
+- Use of implicit intent (share score with friends)
 
-Getting started
----------------
-
-1. Download and run the app.
 
 License
 -------
